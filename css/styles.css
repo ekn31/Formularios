@@ -403,9 +403,13 @@ a:hover{
 .volver{
     width: 500px;
     height: 70px;
-    margin-top: 70px;
-
+    margin-top: 0px;
+    color: white;
     background: #2C0187;
     border-radius: 0px 0px 45px 45px;
+}
+
+.img2{
+    height: 50px;
 }
 
