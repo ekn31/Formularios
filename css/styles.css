@@ -85,7 +85,6 @@ h1{
        align-items: center;
        flex-direction: column;
        padding-top: 100px;
-      
        padding-bottom: 200px;
 
 }
@@ -103,6 +102,17 @@ h1{
     background: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
+}
+.t{
+    width: 270px;
+    height: 260px;
+  
+    
+
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 15.3407px;
 }
 
 .buttom{
@@ -153,7 +163,7 @@ h1{
 
 .s{
     display: flex;
-    
+   
     padding-left: 15px;
     padding-right: 15px;
     
@@ -271,7 +281,7 @@ h1{
 
 }
 
-label{
+.label{
     width: 195px;
     height: 72px;
     left: 410px;
@@ -396,9 +406,7 @@ a:hover{
 
 }
 
-.t{
-    width: 400px;
-}
+
 
 .volver{
     width: 500px;
@@ -413,3 +421,155 @@ a:hover{
     height: 50px;
 }
 
+.add{
+    position: sticky;
+    color: #00669F ;
+    font-size: 50px;
+    left: 95%;
+    bottom: 100px;
+    z-index: 70px;
+}
+
+.add:hover{
+    color: #001D2D;
+}
+
+.y{
+    width: 700px;
+    height: 800px;
+    left: 243px;
+    top: 184px;
+
+    background: #00669F;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49.0901px;
+}
+
+.p1{
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 72px;
+    /* identical to box height, or 179% */
+
+    text-align: center;
+
+    color: #FBFFFD;
+}
+
+.sp{
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 14px;
+    /* identical to box height, or 70% */
+
+
+    color: #FFFFFF;
+}
+
+.btn2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 600px;
+    
+    
+    
+}
+
+.btn3{
+
+    margin-top: 30px;
+    width: 270px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    
+    border-radius: 15.3407px;
+}
+
+.t444{
+    
+    height: 300px;
+}
+.none{
+    margin-top: 40px;
+
+    font-family: Inter;
+    font-style: normal;
+    
+    font-size: 20px;
+    line-height: 2px;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+.tp2{
+    margin-top: 40px;
+    font-size: 10px;
+}
+
+
+
+.colum{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items: left;
+    height: 200px;
+    padding-top: 20px;
+}
+
+.mt{
+    margin-top: 78px;
+    margin-bottom: 20px;
+}
+
+.mt2{
+    margin-right: 10px;
+}
+.mt3{
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    height: 20px;
+    align-items: left;
+    
+    
+}
+
+hr{
+    margin-top:  30px;
+    margin-bottom: 2px;
+}
+
+.mt4{
+
+    height: 0px;
+
+}
+
+.añadir{
+    width: 466px;
+    height: 87px;
+    margin-top: 190px;
+    align-items: flex-end;
+    background: #1CD1B0;
+    border-radius: 23.011px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    /* identical to box height, or 110% */
+
+    text-align: center;
+
+    color: #000000;
+}
